@@ -5,22 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <style>
+    header {
+      background-color:rgb(170, 203, 115);
+      color: rgb(40, 40, 40);
+      padding: 10px;
+      text-align: center;
+      position: fixed; 
+      width: 100%;
+    }
+    nav{
+      background-color:rgb(205, 233, 144);
+      color: rgb(40, 40, 40);
+      padding:10px;
+      height: 60px;
+      width: 100%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+    nav a {
+    text-decoration: none;
+    color:rgb(40,40,40);
+    margin-right: 10px;
+    }
+    form input{
+    display:block;
+    padding: 10px;
+    margin: 5px;
+    }
+    div{
+    background-color:rgb(255, 255, 232);
+    height:500px;
+    width: 100%;
+    padding: 10px;
+    }
+    section{
+    height: 500px;
+    background-color:rgb(255, 212, 212);
+    width: 100%;
+    padding: 10px;
+    }
+    footer{
+    background-color:rgb(255, 166, 152);
+    color:rgb(40, 40, 40); 
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    }
+  </style>
   <body>
-    <header>*** 블로그 입니다</header>
+    <header>~~김지후의 블로그 입니다~~</header>
     <nav>
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">DIARY</a></li>
-        <li><a href="#">MEDIA</a></li>
-      </ul>
-    </nav>
+       <a href="#">HOME</a>
+       <a href="#">DIARY</a>
+       <a href="#">MEDIA</a>
+      </nav>
     <article>
-      <section>
+      <div>
         <form action="">
           <input type="text" placeholder="아이디" />
           <input type="password" placeholder="비밀번호" />
         </form>
-      </section>
+      </div>
       <section>
         <h2>안녕하세요!</h2>
         <p>HTML 실습 과제입니다.</p>
